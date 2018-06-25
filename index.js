@@ -5,7 +5,7 @@ const GoogleStrategy = require("passport-google-oauth20").Strategy;
 
 const app = express();
 
-passport.use(new GoogleStrategy({}));
+// passport.use(new GoogleStrategy({}));
 // appid: emaily-dev-2018--june-208308
 
 app.get("/", (req, res) => {
